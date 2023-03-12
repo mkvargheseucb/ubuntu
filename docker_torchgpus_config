@@ -1,0 +1,5 @@
+apt update
+apt install -y tmux
+apt install -y wget 
+tmux new-session -s notebook
+jupyter notebook
